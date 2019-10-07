@@ -2,12 +2,12 @@
 /**
  * Theme options page output
  *
- * @package    WordPress/ClassicPress
- * @subpackage BS_Theme
+ * @package    IntegratePress
+ * @subpackage StaticTemp
  * @since      1.0.0
  */
 
-namespace BS_Theme\Includes\Options;
+namespace StaticTemp\Includes\Options;
 
 // Restrict direct access.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,19 +18,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 $title = sprintf(
 	'<h1 class="wp-heading-inline">%1s %2s</h1>',
 	get_bloginfo( 'name' ),
-	__( 'Display Options', 'bs-theme' )
+	__( 'Display Options', 'statictemp' )
 );
 
 // Page description.
 $description = sprintf(
 	'<p class="description">%1s</p>',
-	__( 'This is a starter/example page. Use it or remove it.', 'bs-theme' )
+	__( 'This is a starter/example page. Use it or remove it.', 'statictemp' )
 );
 
 // Begin page output.
 ?>
 
-<div class="wrap bs-theme-options-page">
+<div class="wrap statictemp-options-page">
 	<?php echo $title; ?>
 	<?php echo $description; ?>
 	<hr />

@@ -144,20 +144,20 @@ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "BS Theme"
+msgid "StaticTemp"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://github.com/ControlledChaos/bs-theme"
+msgid "https://github.com/IntegratePress/statictemp"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"A basic starter theme for WordPress and ClassicPress."
+"Temporary theme for our static site generator."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Controlled Chaos Design"
+msgid "IntegratePress"
 msgstr ""
 
 #. Author URI of the plugin/theme

@@ -2,8 +2,8 @@
 /**
  * Template part for displaying posts
  *
- * @package    WordPress/ClassicPress
- * @subpackage BS_Theme
+ * @package    IntegratePress
+ * @subpackage StaticTemp
  * @since      1.0.0
  */
 
@@ -22,20 +22,20 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				BS_Theme\Tags\posted_on();
-				BS_Theme\Tags\posted_by();
+				StaticTemp\Tags\posted_on();
+				StaticTemp\Tags\posted_by();
 				?>
 			</div>
 		<?php endif; ?>
 	</header>
 
-	<?php BS_Theme\Tags\post_thumbnail(); ?>
+	<?php StaticTemp\Tags\post_thumbnail(); ?>
 
 	<div class="entry-content" itemprop="articleBody">
 		<?php
 		the_content( sprintf(
 			wp_kses(
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'bs-theme' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'statictemp' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -46,13 +46,13 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'bs-theme' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'statictemp' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div>
 
 	<footer class="entry-footer">
-		<?php BS_Theme\Tags\entry_footer(); ?>
+		<?php StaticTemp\Tags\entry_footer(); ?>
 	</footer>
 </article>

@@ -4,8 +4,8 @@
  *
  * Do not namespace this file.
  *
- * @package    WordPress/ClassicPress
- * @subpackage BS_Theme
+ * @package    IntegratePress
+ * @subpackage StaticTemp
  * @since      1.0.0
  */
 
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since  1.0.0
  * @access public
  */
-class BS_Theme_Activate {
+class StaticTemp_Activate {
 
     /**
 	 * Constructor magic method
@@ -76,4 +76,4 @@ class BS_Theme_Activate {
 }
 
 // Run the class.
-new BS_Theme_Activate;
+new StaticTemp_Activate;

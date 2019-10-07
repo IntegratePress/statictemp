@@ -2,8 +2,8 @@
 /**
  * Template part for displaying a message that posts cannot be found
  *
- * @package    WordPress/ClassicPress
- * @subpackage BS_Theme
+ * @package    IntegratePress
+ * @subpackage StaticTemp
  * @since      1.0.0
  */
 
@@ -11,7 +11,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'bs-theme' ); ?></h1>
+		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'statictemp' ); ?></h1>
 	</header>
 
 	<div class="page-content" itemprop="articleBody">
@@ -19,7 +19,7 @@
 
 			printf(
 				'<p>' . wp_kses(
-					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'bs-theme' ),
+					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'statictemp' ),
 					array(
 						'a' => array(
 							'href' => array(),
@@ -31,13 +31,13 @@
 
 		elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'bs-theme' ); ?></p>
+			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'statictemp' ); ?></p>
 			<?php
 			get_search_form();
 
 		else : ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'bs-theme' ); ?></p>
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'statictemp' ); ?></p>
 			<?php
 			get_search_form();
 

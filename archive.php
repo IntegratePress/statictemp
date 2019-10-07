@@ -2,8 +2,8 @@
 /**
  * The template for displaying archive pages
  *
- * @package    WordPress/ClassicPress
- * @subpackage BS_Theme
+ * @package    IntegratePress
+ * @subpackage StaticTemp
  * @since      1.0.0
  */
 
